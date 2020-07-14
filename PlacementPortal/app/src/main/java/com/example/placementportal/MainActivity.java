@@ -17,10 +17,12 @@ public class MainActivity extends AppCompatActivity {
     public void showStudentLogin(View view) {
         Intent intent = new Intent(this, StudentLoginActivity.class);
         startActivity(intent);
+        finish();
     }
 
     public void showCompanyLogin(View view) {
         Intent intent = new Intent(this, CompanyLoginActivity.class);
         startActivity(intent);
+        finish();
     }
 }

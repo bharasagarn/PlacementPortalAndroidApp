@@ -3,4 +3,20 @@
     <string name="button_company">Company</string>
     <string name="button_student">Student</string>
     <string name="title_placement_portal">Placement Portal</string>
+    <string name="login_with_email">Login with Email</string>
+    <string name="login_with_google">Login with Google</string>
+    <string name="enter_password">Enter password</string>
+    <string name="enter_email">Enter email</string>
+    <string name="login">Login</string>
+    <string name="post_an_opening">Post An Opening</string>
+    <string name="manage_openings">Manage Openings</string>
+    <string name="enter_name_of_the_company">Enter name of the company :</string>
+    <string name="give_a_brief_description_of_the_opening">Give a brief description of the opening :</string>
+    <string name="enter_the_job_opening_title">Enter the job/opening title :</string>
+    <string name="submit">Submit</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="view_eligible_openings">View eligible openings</string>
+    <string name="enter_the_cut_off_cpi">Enter the cut-off CPI</string>
+    <string name="attach_image_of_brochure_for_the_opening_jpeg_file">Attach image of brochure for the opening (jpeg file)</string>
+    <string name="choose_file">Choose file</string>
 </resources>

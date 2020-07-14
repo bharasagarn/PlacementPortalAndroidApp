@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1086515914445",
+    "firebase_url": "https://placementportal-8f2cf.firebaseio.com",
+    "project_id": "placementportal-8f2cf",
+    "storage_bucket": "placementportal-8f2cf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1086515914445:android:f5887985f99e78894a2b84",
+        "android_client_info": {
+          "package_name": "com.example.placementportal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1086515914445-b4q799ogcq6lglbgbcf9ltjjnr1kmt0f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.placementportal",
+            "certificate_hash": "c6064785babafefbed8ff2683a910da8119b6ef3"
+          }
+        },
+        {
+          "client_id": "1086515914445-1s4teutuh67ovc6p252lrqcb9jm21399.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIVLE2Fs3UoRE0K0UrxK3zCYU-vzc1t00"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1086515914445-1s4teutuh67ovc6p252lrqcb9jm21399.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
