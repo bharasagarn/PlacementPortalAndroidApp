@@ -19,4 +19,10 @@
     <string name="enter_the_cut_off_cpi">Enter the cut-off CPI</string>
     <string name="attach_image_of_brochure_for_the_opening_jpeg_file">Attach image of brochure for the opening (jpeg file)</string>
     <string name="choose_file">Choose file</string>
+    <string name="edit_info">Edit Info</string>
+    <string name="show_resume">Show Resume</string>
+    <string name="about">About</string>
+    <string name="branch">Branch</string>
+    <string name="cpi">CPI</string>
+    <string name="name">Name</string>
 </resources>

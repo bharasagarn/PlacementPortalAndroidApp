@@ -8,7 +8,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
-import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.FirebaseFirestore;
 
 public class StudentHomeActivity extends AppCompatActivity {
@@ -26,7 +25,8 @@ public class StudentHomeActivity extends AppCompatActivity {
             finish();
         }
         findViewById(R.id.editProfileButton).setOnClickListener(EditProfileListener);
-        findViewById(R.id.viewOpenings).setOnClickListener(ViewOpeningsListener);
+//        findViewById(R.id.viewOpenings).setOnClickListener(ViewOpeningsListener);
+        findViewById(R.id.logoutbutton).setOnClickListener(LogoutListener);
     }
 
     View.OnClickListener EditProfileListener = new View.OnClickListener() {
@@ -37,11 +37,12 @@ public class StudentHomeActivity extends AppCompatActivity {
         }
     };
 
-    View.OnClickListener ViewOpeningsListener = new View.OnClickListener() {
+    View.OnClickListener LogoutListener = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
-            DocumentReference docRef = db.collection("studentProfiles").document(user.getUid());
-
+            FirebaseAuth.getInstance().signOut();
+            startActivity(new Intent(StudentHomeActivity.this,MainActivity.class));
+            finish();
         }
     };
 }

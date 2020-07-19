@@ -50,6 +50,7 @@ public class StudentLoginActivity extends AppCompatActivity {
     }
 
     private void updateUI() {
+        user = mAuth.getCurrentUser();
         final DocumentReference studentsRef = db.collection("studentProfiles").document(user.getUid());
         studentsRef.get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
             @Override
