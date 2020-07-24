@@ -53,7 +53,7 @@ public class EditProfileActivity extends AppCompatActivity {
                         TextView bioTV = findViewById(R.id.bioTV);
                         assert data != null;
                         nameTV.setText(data.get("name")!=null ? data.get("name").toString() : "Nil" );
-                        cpiTV.setText(data.get("cpi")!=null ? data.get("CPI").toString() : "Nil" );
+                        cpiTV.setText(data.get("CPI")!=null ? data.get("CPI").toString() : "Nil" );
                         branchTV.setText(data.get("branch")!=null ? data.get("branch").toString() : "Nil" );
                         bioTV.setText(data.get("bio")!=null ? data.get("bio").toString() : "Nil" );
                     }

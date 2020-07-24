@@ -6,4 +6,137 @@
     android:layout_height="match_parent"
     tools:context=".EditProfile2">
 
+    <TextView
+        android:id="@+id/editbranchTV"
+        android:layout_width="257dp"
+        android:layout_height="29dp"
+        android:text="@string/branch"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.293" />
+
+    <TextView
+        android:id="@+id/editcpiTV"
+        android:layout_width="257dp"
+        android:layout_height="29dp"
+        android:text="@string/cpi"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.149" />
+
+    <EditText
+        android:id="@+id/cpispET"
+        android:layout_width="289dp"
+        android:layout_height="52dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:importantForAutofill="no"
+        android:inputType="textMultiLine"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.573"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/namespET"
+        app:layout_constraintVertical_bias="0.145" />
+
+    <Button
+        android:id="@+id/submitspbutton"
+        android:layout_width="271dp"
+        android:layout_height="59dp"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:text="@string/done"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/biospET"
+        app:layout_constraintVertical_bias="0.739" />
+
+    <EditText
+        android:id="@+id/biospET"
+        android:layout_width="259dp"
+        android:layout_height="127dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/branchcpET"
+        app:layout_constraintVertical_bias="0.318"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/branchcpET"
+        android:layout_width="260dp"
+        android:layout_height="46dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.343" />
+
+    <EditText
+        android:id="@+id/namespET"
+        android:layout_width="260dp"
+        android:layout_height="46dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.061" />
+
+    <TextView
+        android:id="@+id/biospETtag"
+        android:layout_width="240dp"
+        android:layout_height="38dp"
+        android:text="@string/about"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/biospET"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/branchcpET"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/uploadresumebutton"
+        android:layout_width="218dp"
+        android:layout_height="44dp"
+        android:text="@string/upload_resume"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/biospET"
+        app:layout_constraintVertical_bias="0.215" />
+
+    <TextView
+        android:id="@+id/editnameTV"
+        android:layout_width="257dp"
+        android:layout_height="29dp"
+        android:text="@string/name"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/namespET"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>

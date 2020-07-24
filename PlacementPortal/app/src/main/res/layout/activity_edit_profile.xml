@@ -21,7 +21,7 @@
     <TextView
         android:id="@+id/bioTV"
         android:layout_width="327dp"
-        android:layout_height="37dp"
+        android:layout_height="wrap_content"
         android:background="@android:drawable/editbox_dropdown_light_frame"
         android:text="TextView"
         android:textAlignment="center"
@@ -37,20 +37,20 @@
     <TextView
         android:id="@+id/biotagTV"
         android:layout_width="96dp"
-        android:layout_height="32dp"
+        android:layout_height="wrap_content"
         android:text="@string/about"
         android:textAlignment="center"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/bioTV"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.587" />
+        app:layout_constraintTop_toBottomOf="@+id/branchTV"
+        app:layout_constraintVertical_bias="1.0" />
 
     <TextView
         android:id="@+id/branchTV"
         android:layout_width="327dp"
-        android:layout_height="37dp"
+        android:layout_height="wrap_content"
         android:background="@android:drawable/editbox_dropdown_light_frame"
         android:text="TextView"
         android:textAlignment="center"
@@ -66,20 +66,20 @@
     <TextView
         android:id="@+id/branchtagTV"
         android:layout_width="96dp"
-        android:layout_height="32dp"
+        android:layout_height="wrap_content"
         android:text="@string/branch"
         android:textAlignment="center"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/branchTV"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.422" />
+        app:layout_constraintTop_toBottomOf="@+id/cpitagTV"
+        app:layout_constraintVertical_bias="1.0" />
 
     <TextView
         android:id="@+id/cpiTV"
         android:layout_width="327dp"
-        android:layout_height="37dp"
+        android:layout_height="wrap_content"
         android:background="@android:drawable/editbox_dropdown_light_frame"
         android:text="TextView"
         android:textAlignment="center"
@@ -95,7 +95,7 @@
     <TextView
         android:id="@+id/cpitagTV"
         android:layout_width="96dp"
-        android:layout_height="32dp"
+        android:layout_height="wrap_content"
         android:text="@string/cpi"
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -103,7 +103,7 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.251" />
+        app:layout_constraintVertical_bias="0.245" />
 
     <TextView
         android:id="@+id/nametagTV"
@@ -121,7 +121,7 @@
     <TextView
         android:id="@+id/nameTV"
         android:layout_width="327dp"
-        android:layout_height="37dp"
+        android:layout_height="wrap_content"
         android:background="@android:drawable/editbox_dropdown_light_frame"
         android:text="TextView"
         android:textAlignment="center"

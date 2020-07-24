@@ -25,4 +25,6 @@
     <string name="branch">Branch</string>
     <string name="cpi">CPI</string>
     <string name="name">Name</string>
+    <string name="upload_resume">Upload Resume</string>
+    <string name="done">Done</string>
 </resources>
