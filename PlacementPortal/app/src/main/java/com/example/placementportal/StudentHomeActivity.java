@@ -25,7 +25,7 @@ public class StudentHomeActivity extends AppCompatActivity {
             finish();
         }
         findViewById(R.id.editProfileButton).setOnClickListener(EditProfileListener);
-//        findViewById(R.id.viewOpenings).setOnClickListener(ViewOpeningsListener);
+        findViewById(R.id.viewOpenings).setOnClickListener(ViewOpeningsListener);
         findViewById(R.id.logoutbutton).setOnClickListener(LogoutListener);
     }
 
@@ -43,6 +43,13 @@ public class StudentHomeActivity extends AppCompatActivity {
             FirebaseAuth.getInstance().signOut();
             startActivity(new Intent(StudentHomeActivity.this,MainActivity.class));
             finish();
+        }
+    };
+
+    View.OnClickListener ViewOpeningsListener = new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            startActivity(new Intent(StudentHomeActivity.this,StudentViewOpeningsActivity.class));
         }
     };
 }

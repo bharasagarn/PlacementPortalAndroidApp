@@ -97,12 +97,8 @@ public class StudentLoginActivity extends AppCompatActivity {
     private View.OnClickListener SignInButtonListener = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
-            switch (v.getId()) {
-                case R.id.google_signin_button:
-                    gsignIn();
-                    break;
-                case R.id.email_signin_button:
-                    break;
+            if (v.getId() == R.id.google_signin_button) {
+                gsignIn();
             }
         }
     };

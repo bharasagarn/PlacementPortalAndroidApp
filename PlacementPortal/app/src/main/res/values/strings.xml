@@ -15,7 +15,7 @@
     <string name="enter_the_job_opening_title">Enter the job/opening title :</string>
     <string name="submit">Submit</string>
     <string name="edit_profile">Edit Profile</string>
-    <string name="view_eligible_openings">View eligible openings</string>
+    <string name="view_eligible_openings">View all openings</string>
     <string name="enter_the_cut_off_cpi">Enter the cut-off CPI</string>
     <string name="attach_image_of_brochure_for_the_opening_jpeg_file">Attach image of brochure for the opening (jpeg file)</string>
     <string name="choose_file">Choose file</string>
@@ -27,4 +27,5 @@
     <string name="name">Name</string>
     <string name="upload_resume">Upload Resume</string>
     <string name="done">Done</string>
+    <string name="empty">Empty</string>
 </resources>
